@@ -15,7 +15,7 @@ This example is created as described below (and I also made sure the Weather for
 4. Add a **reference** in the server project to the client project
 
 5. In the server project edit **Program.cs** and add the lines between the lines:
-```
+```cs
 public static void Main(string[] args)
 {
     var builder = WebApplication.CreateBuilder(args);
@@ -52,7 +52,7 @@ public static void Main(string[] args)
 
 6. In the server project change Properties/**launchSettings.json** (you can use other port numbers if you like):
 
-```
+```json
 {
   "profiles": {
     "http": {
